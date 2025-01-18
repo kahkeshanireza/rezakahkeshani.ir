@@ -5,8 +5,9 @@ url: "https://rezakahkeshani.ir"
 author: 
   name: "Reza Kahkeshani"
   email: "your_email@example.com"
-theme: minimal-mistakes-jekyll
+theme: mmistakes/minimal-mistakes
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
