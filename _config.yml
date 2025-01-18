@@ -1,0 +1,15 @@
+title: "Reza Kahkeshani"
+description: "Personal website and blog of Reza Kahkeshani"
+baseurl: ""
+url: "https://rezakahkeshani.ir"
+author: 
+  name: "Reza Kahkeshani"
+  email: "your_email@example.com"
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+
+paginate: 5
+paginate_path: "/page:num/"
