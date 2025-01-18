@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<h1>Welcome to {{ site.title }}</h1>
+<p>{{ site.description }}</p>
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <p>{{ post.excerpt }}</p>
+    </li>
+  {% endfor %}
+</ul>
