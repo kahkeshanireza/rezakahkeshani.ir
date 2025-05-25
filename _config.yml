@@ -4,13 +4,12 @@ baseurl: ""
 url: "https://rezakahkeshani.ir"
 author: 
   name: "Reza Kahkeshani"
-  email: "your_email@example.com"
-theme: mmistakes/minimal-mistakes
+  email: "kahkeshanireza@kashanu.ac.ir"
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-feed
-
 paginate: 5
 paginate_path: "/page:num/"
