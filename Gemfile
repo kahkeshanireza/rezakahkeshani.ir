@@ -1,17 +1,16 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 
-# gem "jekyll", "~> 4.4.1"
-gem "jekyll", "~> 3.10"
-gem "github-pages", group: :jekyll_plugins
-gem "jekyll-include-cache", group: :jekyll_plugins
-# gem "minimal-mistakes-jekyll"
+# gem "jekyll"
 
+# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+gem 'github-pages', group: :jekyll_plugins
+
+# If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-paginate"
-  gem "jekyll-sitemap"
-  gem "jekyll-gist"
-  gem "jekyll-feed"
-  gem "jemoji"
-  gem "jekyll-include-cache"
-  gem "jekyll-algolia"
+  gem 'jekyll-sitemap'
+  gem 'jekyll-target-blank'
+  gem 'jemoji'
 end
+
+gem "webrick", "~> 1.8"

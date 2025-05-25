@@ -2,15 +2,33 @@ title: "Reza Kahkeshani"
 description: "Personal website and blog of Reza Kahkeshani"
 baseurl: ""
 url: "https://rezakahkeshani.ir"
+markdown: kramdown
 author: 
   name: "Reza Kahkeshani"
   email: "kahkeshanireza@kashanu.ac.ir"
-# remote_theme: mmistakes/minimal-mistakes@3.3.0
-remote_theme: mmistakes/minimal-mistakes
 plugins:
-  - jekyll-remote-theme
-  - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-feed
-paginate: 5
-paginate_path: "/page:num/"
+  - jemoji
+
+jekyll_admin:
+  hidden_links:
+    - staticfiles
+    - datafiles
+    - configuration
+  homepage: "posts"
+
+exclude:
+  - .all-contributorsrc
+  - .editorconfig
+  - .github
+  - .gitignore
+  - .jekyll-cache
+  - .pre-commit-config.yaml
+  - CODEOWNERS
+  - codespell.txt
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - server
+  - super-linter.report
+  
